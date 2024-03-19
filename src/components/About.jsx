@@ -11,7 +11,7 @@ const About = () => {
             <div className=' px-2  md:w-2/3'>
             <h1 className=' text-4xl font-sansita text-center text-indigo-950 inline mb-6'>About</h1>
                 <p className=' py-6 pb-6'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit iusto, culpa dolorum dolorem unde nisi atque obcaecati? Futinctio, iure eaque sapiente doloremque a quas in, soluta tempore voluptatum velit beata</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ullam cum aspernatur accusantium suscipit aliquam, ex aliquid rerum magnam alias, veritatis dolore deserunt assumenda ab sequi numquam recusandae quos non rem ipsum doiquam pariatur at modi! Ut iure eaque sapiente doloremque a quas in, soluta tempore voluptatum velit beatae autem asperiores.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ullam cum aspernatur accusantium suscipit aliquam, ex aliquid rerum magnam alias, veritatis dolore deserunt assumenda abhjdjkj'ka sequi numquam recusandae quos non rem ipsum doiquam pariatur at modi! Ut iure eaque sapiente doloremque a quas in, soluta tempore voluptatum velit beatae autem asperiores.</p>
                 
         <div className=' flex justify-center py-6'>
         <FaLocationDot size={32} />
