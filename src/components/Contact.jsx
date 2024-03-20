@@ -33,7 +33,7 @@ const socials =[
 
     return (
       <div name="contact" className=' w-full h-screen bg-indigo-50 flex flex-col justify-center px-4'>
-          <div className=' flex flex-col  justify-center  max-w-screen-lg mx-auto h-fit'>
+          <div className=' pt-20 flex flex-col  justify-center  max-w-screen-lg mx-auto h-fit'>
 
           <ul className='flex w-full justify-center py-6 items-center text-xl'>
   {socials.map(({id, icons}) => (
