@@ -32,10 +32,10 @@ const socials =[
     
 
     return (
-      <div name="contact" className=' w-full h-screen bg-indigo-50 flex flex-col justify-center px-4'>
-          <div className='  flex flex-col  justify-center  max-w-screen-lg mx-auto h-fit'>
+      <div name="contact" className=' w-full h-full bg-indigo-50 flex flex-col justify-center px-4'>
+          <div className=' flex flex-col  justify-center  max-w-screen-lg mx-auto '>
 
-          <ul className=' pt-20 flex w-full justify-center py-6 items-center text-xl'>
+          <ul className=' flex w-full justify-center py-6 items-center text-xl'>
   {socials.map(({id, icons}) => (
     <li key={id} className=' text-indigo-950 font-bold text-indi tracking-wide px-5 hover:scale-125 cursor-pointer'>
      {icons}
@@ -55,7 +55,7 @@ const socials =[
           <button className=" text-white  bg-indigo-950  rounded-lg ring-2 border-4 ring-indigo-950 py-2 my-4 mx-auto flex text-xl font-semibold items-center hover:bg-transparent hover:text-indigo-950 hover:ring-4 px-7">Get in touch</button>
       </form>
   </div>
-  <p className='text-gray-600  tracking-widest text-center  text-xl'>&copy;Copyright-<span className='font-guerrilla'>EDDYDEV </span>{getCurrentYear()}  </p>
+  <p className='text-gray-600 pb-10 tracking-widest text-center  text-xl'>&copy;Copyright-<span className='font-guerrilla'>EDDYDEV </span>{getCurrentYear()}  </p>
           </div>
     
     )
