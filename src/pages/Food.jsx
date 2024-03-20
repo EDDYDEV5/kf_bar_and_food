@@ -9,7 +9,7 @@ const Food = () => {
   const [items] = useState(Data)
   return (
  <div>
- <MenuList title="Food" />
+ <MenuList title="Foods" />
   <MenuItems items={items.filter((item)=>item.type==='food')} />
  </div>
   )
