@@ -48,7 +48,9 @@ const currentPost = items.slice(indexOfFirstPost, indexOfLastPost)
         previousLinkClassName={'page-number'}
         nextLinkClassName={'page-number'}
         activeLinkClassName={'active'} /></>
+      
 </div>
+
   ) ;
 };
 

@@ -55,7 +55,7 @@ const Navbar = () => {
   return (
     <>
       <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-indigo-100 fixed z-10 ">
-        <div className="bg-indigo-950 mt-3 rounded ml-6 w-12">
+        <div className="bg-indigo-950 mt-2 rounded w-12">
           <Link to="/"><img src={kfbar} alt="" /></Link>
         </div>
 
@@ -72,9 +72,9 @@ const Navbar = () => {
 
         <div className="flex">
           <Link to="/cart">
-            <div className="flex px-8  items-center text-xl text-indigo-950 font-semibold">
+            <div className="flex px-6 items-center text-xl text-indigo-950 font-semibold">
             Cart ({totalUniqueItems})
-            <FaShoppingCart size={32} className="   " />
+            <FaShoppingCart size={32} />
         
            
             </div>

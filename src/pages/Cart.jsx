@@ -29,19 +29,20 @@ const Cart = () => {
   return (
     <>
 
-      <div className=" items-center justify-center h-full bg-indigo-100 ">
-      <p className=" text-3xl font-sansita text-gray-600 tracking-wide py-4">Your Cart Item</p>
-      <div className=" h-full flex flex-col justify-center items-center">
+      <div className=" items-center justify-center h-full   bg-indigo-100 ">
+      
+      <div className=" md:h-full flex flex-col justify-center items-center px-3  pt-10">
+      <h1 className=" text-3xl font-sansita text-gray-600 tracking-wide py-9">Your Cart Item</h1>
             {items.map((item) => (
               <div
                 key={item.id}
-                className=" flex border-2 border-indigo-950 rounded-2xl mb-4 shadow-sm shadow-gray-800"
+                className=" flex border-2 border-indigo-950 rounded-2xl mb-4 shadow-sm shadow-gray-800 h-64"
               >
               
                   <img
                     src={item.img}
                     alt=""
-                    className="rounded-2xl py-2 px-2 h-52 w-48"
+                    className="rounded-2xl py-2 px-2  w-44 md:w-52"
                   />
                 
                 <div className=" px-4">
@@ -65,15 +66,15 @@ const Cart = () => {
                   +
                 </button>
                 <div>
-                <button onClick={() => removeItem(item.id)}  className="text-white font-semibold bg-red-700 py-1 px- mt-4  rounded-lg ring-2 border-4 px-2 ring-red-700 hover:bg-transparent hover:text-indigo-950 hover:ring-4">Remove Item</button>
+                <button onClick={() => removeItem(item.id)}  className="text-white font-semibold bg-red-700 py-1 px- mt-4  rounded-lg ring-2 border-4 px-1 ring-red-700 hover:bg-transparent hover:text-indigo-950 hover:ring-4">Remove Item</button>
                 </div>
               </div>
-             
               </div>
+              
             ))}
-          </div>
+         
         
-          <div className="flex items-center justify-center py-6">
+         <div className="flex items-center justify-center py-6">
             <p className=" text-xl font-semibold px-5">
               Total Price: ₦{cartTotal}
             </p>
@@ -84,15 +85,17 @@ const Cart = () => {
                <Link to="/checkout">Checkout</Link>
             </button>
             </div>
-         
+            <div className="flex items-center justify-center py-6 mb-10">
           <button className=" mt-9  text-white font-semibold bg-indigo-950 py-1 px-3 rounded-lg ring-2 border-4 ring-indigo-950 mb-10 mr-9 hover:bg-transparent hover:text-indigo-950 hover:ring-4 ">
             <Link to="/">Continue Shopping</Link>
           </button>
           <button onClick={() => emptyCart()} className=" text-white font-semibold bg-indigo-950 py-1  rounded-lg ring-2 border-4 ring-indigo-950 hover:bg-transparent hover:text-indigo-950 hover:ring-4 px-7">
             Clear Cart
           </button>
-        
-        </div>
+          </div>
+          </div>
+          </div>
+         
       
     
     </>

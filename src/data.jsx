@@ -42,6 +42,88 @@ const Data = [
       description: "wine",
       type: "spirit"
     },
+    
+     {
+      id: 11,
+      img: Hennesyvsop,
+      price: 78000,
+      caption: "Hennesy VSOP",
+      description: "cognac",
+     type: "spirit"
+    },
+    {
+      id: 12,
+      img: Hennesyxo,
+      price: 168500,
+      caption: "Hennesy XO",
+      description: "cognac",
+     type: "spirit"
+    },
+    {
+      id: 13,
+      img: Redlabel,
+      price: 28500,
+      caption: "Red Label",
+      description: "whiskey",
+     type: "spirit"
+    },
+    {
+      id: 14,
+      img: Hennesy,
+      price: 48500,
+      caption: "Hennesy",
+      description: "cognac",
+      type: "spirit"
+    },
+    {
+      id: 15,
+      img: Jackdaniels,
+      price: 20500,
+      caption: "Jack Daniels",
+      description: "whiskey",
+     type: "spirit"
+    },
+    
+    {
+      id: 16,
+      img: Glenfiddich,
+      price: 88000,
+      caption: "Glenffidich",
+      description: "whiskey",
+     type: "spirit"
+    },
+    {
+      id: 17,
+      img: Powerhorse,
+      price: 2000,
+      caption: "Power Horse",
+      description: "energy drink",
+     type: "spirit"
+    },
+    {
+      id: 18,
+      img: Danjulo,
+      price: 78000,
+      caption: "Donjulio",
+      description: "tequila",
+      type: "spirit"
+    },
+    {
+      id: 19,
+      img: Monster,
+      price: 1700,
+      caption: "Monster",
+      description: "energy drink",
+     type: "spirit"
+    },
+    {
+      id: 20,
+      img: Meot,
+      price: 142000,
+      caption: "Moët & Chandon",
+      description: "champange",
+     type: "spirit"
+    },
     {
       id: 1,
       img: Snail,
@@ -90,102 +172,24 @@ const Data = [
       description: "wine",
       type: "spirit"
     },
-   {
-      id: 9,
-      img: Bullet,
-      price: 1500,
-      caption: "Bullet",
-      description: "energy drink",
-      type: "spirit"
-    },
-   {
-      id: 10,
-      img: RemyMartins,
-      price: 28500,
-      caption: "Remy Martins",
-      description: "cognac",
-     type: "spirit"
-    },
+    
+      {
+        id: 9,
+        img: Bullet,
+        price: 1500,
+        caption: "Bullet",
+        description: "energy drink",
+        type: "spirit"
+      },
      {
-      id: 11,
-      img: Hennesyvsop,
-      price: 78000,
-      caption: "Hennesy VSOP",
-      description: "cognac",
-     type: "spirit"
-    },
-    {
-      id: 12,
-      img: Hennesyxo,
-      price: 168500,
-      caption: "Hennesy XO",
-      description: "cognac",
-     type: "spirit"
-    },
-    {
-      id: 13,
-      img: Redlabel,
-      price: 28500,
-      caption: "Red Label",
-      description: "whiskey",
-     type: "spirit"
-    },
-    {
-      id: 14,
-      img: Hennesy,
-      price: 48500,
-      caption: "Hennesy",
-      description: "cognac",
-      type: "spirit"
-    },
-    {
-      id: 15,
-      img: Jackdaniels,
-      price: 20500,
-      caption: "Jack Daniels",
-      description: "whiskey",
-     type: "spirit"
-    },
-    {
-      id: 16,
-      img: Glenfiddich,
-      price: 88000,
-      caption: "Glenffidich",
-      description: "whiskey",
-     type: "spirit"
-    },
-    {
-      id: 17,
-      img: Powerhorse,
-      price: 2000,
-      caption: "Power Horse",
-      description: "energy drink",
-     type: "spirit"
-    },
-    {
-      id: 18,
-      img: Danjulo,
-      price: 78000,
-      caption: "Donjulio",
-      description: "tequila",
-      type: "spirit"
-    },
-    {
-      id: 19,
-      img: Monster,
-      price: 1700,
-      caption: "Monster",
-      description: "energy drink",
-     type: "spirit"
-    },
-    {
-      id: 20,
-      img: Meot,
-      price: 142000,
-      caption: "Moët & Chandon",
-      description: "champange",
-     type: "spirit"
-    },
+        id: 10,
+        img: RemyMartins,
+        price: 28500,
+        caption: "Remy Martins",
+        description: "cognac",
+       type: "spirit"
+      },
+      
     {
       id: 21,
       img: Jameson,
@@ -225,7 +229,7 @@ const Data = [
       caption: "Carlo Rossi",
       description: "wine",
      type: "spirit"
-    }
+    },
     ]
     
     export default Data;

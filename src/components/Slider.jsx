@@ -45,14 +45,14 @@ const Slider = () => {
           {slideimages.map(({ id, src }) => (
             <div
               key={id}
-              className="flex justify-center items-center h-52 md:h-80 md:bg-contain  bg-cover  z-0 relative"
+              className="flex justify-center items-center h-44 md:h-80 md:bg-contain  bg-cover  z-0 relative"
             >
-              <h1 className="text-5xl  tracking-wide uppercase font-sansita py-5  z-10 text-white absolute top-6 md:top-20 "> k_f <br/> food & <span class="text-red-700">bar</span>
+              <h1 className="text-5xl  tracking-wide uppercase font-sansita py-5  z-10 text-white absolute top-2 md:top-20 "> k_f <br/> food & <span className="text-red-700">bar</span>
   </h1>
   
-     <p className="text-xl font-sansita tracking-wider py-2 capitalize text-white z-10 absolute top-36 md:top-52 
+     <p className="text-xl font-sansita tracking-wider py-2 capitalize text-white z-10 absolute top-28 md:top-52 
     ">we Fulfill your comfort and food cravings.</p>
-              <img src={src} alt="" class="mt-20   contrast-[70%] rounded-lg" />
+              <img src={src} alt="" className="mt-20   contrast-[70%]" />
             </div>
           ))}
         </Slide>

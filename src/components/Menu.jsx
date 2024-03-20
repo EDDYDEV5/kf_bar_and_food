@@ -8,14 +8,10 @@ const Menu = () => {
  return (
     <>
       <div>
-        <div class=" ">
+        <div>
           <MenuList title="MENU" />
-         
         </div>
-        <>
-        
-        <Pagination itemsPerPage={6} />
-        </>
+        <Pagination itemsPerPage={8} />
       </div>
     </>
   );
