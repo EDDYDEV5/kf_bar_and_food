@@ -12,8 +12,8 @@ function MenuList({title}) {
     <h1 className="text-3xl md:text-6xl font-sansita tracking-widest ">{title}</h1>
     </div>
     <div className='flex justify-center items-center font-tektur  text-xl md:text-3xl py-2'>
-    <Link className=' hover:scale-125 px-4' to='/'>All</Link>
-    <Link className=' hover:scale-125 ' to='/food'>Foods</Link>
+    <Link className=' hover:scale-110 px-6' to='/'>All</Link>
+    <Link className=' hover:scale-110 ' to='/food'>Foods</Link>
       
       </div>
       </div>
