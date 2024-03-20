@@ -33,9 +33,9 @@ const socials =[
 
     return (
       <div name="contact" className=' w-full h-screen bg-indigo-50 flex flex-col justify-center px-4'>
-          <div className=' pb-20 flex flex-col  justify-center  max-w-screen-lg mx-auto h-fit'>
+          <div className='  flex flex-col  justify-center  max-w-screen-lg mx-auto h-fit'>
 
-          <ul className='flex w-full justify-center py-6 items-center text-xl'>
+          <ul className=' pt-20 flex w-full justify-center py-6 items-center text-xl'>
   {socials.map(({id, icons}) => (
     <li key={id} className=' text-indigo-950 font-bold text-indi tracking-wide px-5 hover:scale-125 cursor-pointer'>
      {icons}
