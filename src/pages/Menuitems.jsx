@@ -1,5 +1,6 @@
 import React from "react";
 import { useCart } from "react-use-cart";
+import { motion } from "framer-motion"
 
 const MenuItems = ({ items }) => {
   const { addItem } = useCart();
@@ -12,16 +13,20 @@ const MenuItems = ({ items }) => {
         <div className="max-w-screen-lg mx-auto  grid grid-cols-1 lg:grid-cols-2 gap-8 lg:h-full   px-4 py-4 items-center pt-20 ">
         
           {items.map((item) => (
-            <div
+            <motion.div
               key={item.id}
-              className="flex items-center border-2 border-indigo-950 rounded-2xl m- shadow-sm shadow-gray-800 h-64"
+              className="flex items-center border-2 border-indigo-950 rounded-2xl shadow-sm shadow-gray-800 h-56"
+
+              initial={{opacity: 0}}
+  whileInView={{opacity: 1}}
+  transition={{delay: 0.1}}
             >
               <img
                 src={item.img}
                 alt=""
-                className="rounded-2xl py-2 px-2 h-60 w-44 md:w-52"
+                className="rounded-2xl py-2 px-2 h-56 w-44 md:w-52"
               />
-              <div className="bg-inherit flex flex-col justify-center px-4 items-center py-3 rounded-b-2xl w-44 lg:w-52">
+              <div className="bg-inherit flex flex-col justify-center px-4 items-center rounded-b-2xl w-44 lg:w-52">
                 <p className=" italic py-1 text-gray-400">{item.description}</p>
                 <p className=" font-semibold text-gray-900 text-xl">
                   {item.caption}
@@ -34,7 +39,7 @@ const MenuItems = ({ items }) => {
                   Add To Cart
                 </button>
               </div>
-            </div>
+            </motion.div>
           ))}
           </div>
         </div>
